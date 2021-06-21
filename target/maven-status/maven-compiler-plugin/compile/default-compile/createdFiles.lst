@@ -3,6 +3,7 @@ br/avaliacao/resources/ProjetoUsuarioHorasResource$TotalHorasDto.class
 br/avaliacao/models/Projeto.class
 br/avaliacao/models/Usuario.class
 br/avaliacao/resources/ProjetoUsuarioHorasResource.class
+br/avaliacao/repository/TipoUsuarioRepository.class
 br/avaliacao/repository/UsuarioRepository.class
 br/avaliacao/resources/ProjetoResource.class
 br/avaliacao/DemoApplication.class
@@ -10,3 +11,4 @@ br/avaliacao/repository/ProjetoUsuarioHorasRepository.class
 br/avaliacao/repository/ProjetoRepository.class
 br/avaliacao/models/ProjetoUsuarioHoras.class
 br/avaliacao/models/TipoUsuario.class
+br/avaliacao/resources/TipoUsuarioResource.class

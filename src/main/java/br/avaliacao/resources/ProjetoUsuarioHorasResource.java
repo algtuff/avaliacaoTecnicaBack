@@ -38,6 +38,11 @@ public class ProjetoUsuarioHorasResource
     public ProjetoUsuarioHoras apontarHoras(@RequestBody ProjetoUsuarioHoras projetoUsuarioHoras){
         return projetoUsuarioHorasRepository.save(projetoUsuarioHoras);
     }
+
+    @GetMapping("/projetoUsuarioHoras")
+    public List<ProjetoUsuarioHoras> projetoUsuarioHoras(){
+        return projetoUsuarioHorasRepository.findAll();
+    }
     
     @GetMapping("/projetoUsuarioHoras/usuario/{cdUsuario}/projeto/{cdProjeto}")
     public List<ProjetoUsuarioHoras> listHoras(@PathVariable(value="cdUsuario") Integer cdUsuario, @PathVariable(value="cdProjeto") Integer cdProjeto){

@@ -15,6 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 import br.avaliacao.models.Projeto;
 import br.avaliacao.models.Usuario;
 import br.avaliacao.repository.ProjetoRepository;
+import org.springframework.web.bind.annotation.GetMapping;
 
 /**
  *
@@ -41,5 +42,15 @@ public class ProjetoResource
             default:
                 return projetoRepository.projetosProg2();
         }
+    }
+    
+    @PostMapping("/projeto")
+    public Projeto projetos(@RequestBody Projeto projeto){
+        return projetoRepository.save(projeto);
+    }
+
+    @GetMapping("/projeto")
+    public List<Projeto> projetos(){
+        return projetoRepository.findAll();
     }
 }
