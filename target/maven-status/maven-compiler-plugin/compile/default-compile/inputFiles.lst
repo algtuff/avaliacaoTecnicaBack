@@ -1,0 +1,11 @@
+/home/andre/Desenvolvimento/avaliacaoTecnicaBack/avaliacaoTecnicaBack/src/main/java/br/avaliacao/models/ProjetoUsuarioHoras.java
+/home/andre/Desenvolvimento/avaliacaoTecnicaBack/avaliacaoTecnicaBack/src/main/java/br/avaliacao/models/Usuario.java
+/home/andre/Desenvolvimento/avaliacaoTecnicaBack/avaliacaoTecnicaBack/src/main/java/br/avaliacao/resources/ProjetoUsuarioHorasResource.java
+/home/andre/Desenvolvimento/avaliacaoTecnicaBack/avaliacaoTecnicaBack/src/main/java/br/avaliacao/repository/ProjetoUsuarioHorasRepository.java
+/home/andre/Desenvolvimento/avaliacaoTecnicaBack/avaliacaoTecnicaBack/src/main/java/br/avaliacao/repository/ProjetoRepository.java
+/home/andre/Desenvolvimento/avaliacaoTecnicaBack/avaliacaoTecnicaBack/src/main/java/br/avaliacao/models/Projeto.java
+/home/andre/Desenvolvimento/avaliacaoTecnicaBack/avaliacaoTecnicaBack/src/main/java/br/avaliacao/resources/ProjetoResource.java
+/home/andre/Desenvolvimento/avaliacaoTecnicaBack/avaliacaoTecnicaBack/src/main/java/br/avaliacao/models/TipoUsuario.java
+/home/andre/Desenvolvimento/avaliacaoTecnicaBack/avaliacaoTecnicaBack/src/main/java/br/avaliacao/DemoApplication.java
+/home/andre/Desenvolvimento/avaliacaoTecnicaBack/avaliacaoTecnicaBack/src/main/java/br/avaliacao/repository/UsuarioRepository.java
+/home/andre/Desenvolvimento/avaliacaoTecnicaBack/avaliacaoTecnicaBack/src/main/java/br/avaliacao/resources/UsuarioResource.java
